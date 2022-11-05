@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author hmahadev
+ *
+ */
+module Scalar {
+}
