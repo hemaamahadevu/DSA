@@ -22,6 +22,11 @@ N | (1 << i) ----
                   |
                   -> 0 (if the bit is unset)
                   
+Vey imp:
+Check if the ith bit is set -> AND
+Toggle the ith bit -> XOR
+Set the ith bit -> OR
+                  
  
  
                   
