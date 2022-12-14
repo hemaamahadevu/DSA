@@ -22,3 +22,87 @@ LCM(16,24) = 48
 16 -> 16,32,48,64
 24-> 24,48
 
+LCM(a,b) -> range -> [max(a,b),a*b)]
+
+LCM(a,b)*GCD(a,b) = a*b
+
+LCM(a,b) = a*b/GCD(a,b)
+
+----------------------------------------------------------------------
+
+Properties of GCD:
+1. GCD(a,b) = GCD(b,a)
+2. GCD(a,GCD(b,c))= GCD(GCD(a,b),c)
+3. GCD(a,0) = a
+4. GCD(a,1)=1
+
+----------------------------------------------------------------------------
+
+EUCLID:
+-------
+GCD(a,b) = GCD((a-b),b)  :a>=b
+
+gcd(75,25)=>gcd(50,25)=>gcd(25,25)=>gcd(0,25) => 25
+
+
+gcd(a,b) = gcd(a%b,b)    :a>=b
+
+TC(log(min(a,b))
+
+-------------------------------------
+
+1. Find GCd of an array
+
+32,64,12,16
+
+int gCD = 0;
+
+for(int i=0;i<N;i++){
+   gcd = gcd(gcd,A[i]);
+}
+
+gcd(int a,int b){
+   if b==0{
+     return a;
+   }
+   return gcd(b,a%b);
+}
+
+=============================================================================
+
+2. Given an array. check if there is any subsequence which has gcd=1
+   if any two number gcd -s 1 , then the whole array gcd is 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
