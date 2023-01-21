@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author hmahadev
- *
- */
-module Scalar {
-}
