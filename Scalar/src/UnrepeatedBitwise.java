@@ -1,5 +1,3 @@
-package com.guru.hema
-
 public class Scalar {
 	
 	public static void main(String[] args) {
