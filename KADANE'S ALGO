@@ -1,1 +1,6 @@
 MAX SUBARRAY SUM
+
+Kadane's algo is used to find the max subarray sum.
+ Consider an array if we have to find the max subarray sum..
+ 1. Loop through the array, Until the sum is positive abd store the max in a var
+ 2. If we hit the negative sum, then reset sum to 0
