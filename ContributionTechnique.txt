@@ -1,1 +1,5 @@
 Contribution technique
+It can be used to find the sum of all subarrays
+
+Imagine A is an array having N elements then
+sum = sum(A[i]*(i+1)*(N-i))
